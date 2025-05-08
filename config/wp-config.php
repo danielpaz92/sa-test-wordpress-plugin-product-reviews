@@ -11,7 +11,7 @@ define('DB_HOST', 'db');
 
 define('WP_DEBUG', true);
 define('WP_DEBUG_LOG', true);
-define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG_DISPLAY', true);
 @ini_set('display_errors', 0);
 
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
